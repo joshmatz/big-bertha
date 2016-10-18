@@ -1,14 +1,13 @@
 {
   "name": "big-bertha",
-  "version": "1.0.0",
   "description": "An npm package that depends on many other npm packages to warm your yarn cache. https://twitter.com/kentcdodds/status/788416673560657921 ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshmatz/big-bertha.git"
+    "url": "https://github.com/joshmatz/big-bertha.git"
   },
   "keywords": [
     "npm",
