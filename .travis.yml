@@ -11,5 +11,7 @@ before_install:
   - npm i -g npm@3.10.8
 before_script:
   - npm prune
+install:
+  - npm install --only=dev
 after_success:
   - npm run semantic-release
