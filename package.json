@@ -1,5 +1,6 @@
 {
   "name": "big-bertha",
+  "version": "0.0.0-semantically-released",
   "description": "An npm package that depends on many other npm packages to warm your yarn cache. https://twitter.com/kentcdodds/status/788416673560657921 ",
   "main": "index.js",
   "scripts": {
@@ -520,5 +521,8 @@
     "yeoman-generator": "*",
     "yosay": "*",
     "zone.js": "*"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
   }
 }
