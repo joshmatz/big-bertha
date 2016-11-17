@@ -522,6 +522,6 @@
     "zone.js": "latest"
   },
   "devDependencies": {
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^6.3.2"
   }
 }
